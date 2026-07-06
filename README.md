@@ -22,3 +22,32 @@ telco_project_churn/
 ├── app.py             # Streamlit application UI and execution script
 ├── telco_churn.db     # SQLite source database engine
 └── requirements.txt   # Explicit cloud dependency tracking manifest
+```
+
+###🛠️ Local Installation & Execution
+Follow these steps to replicate the environment and run the application locally:
+
+1. Clone the repository:
+```
+git clone [https://github.com/emasadiku1/telco-customer-churn-predictor.git](https://github.com/emasadiku1/telco-customer-churn-predictor.git)
+
+cd telco-customer-churn-predictor
+```
+2. Set up and activate your virtual environment:
+```
+python -m venv env
+
+#On Windows:
+.\env\Scripts\activate
+
+#On Mac/Linux:
+source env/bin/activate
+```
+3. Install the tracked dependencies:
+```
+pip install -r requirements.txt
+```
+4. Launch the web application:
+```
+streamlit run app.py
+```
